@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Helmet>
-        <style>{'body{ background-color: #25252a; font-family: Arial serif} img{border-radius: 50%; width: 100%; position: absolute; top: -200px;} h1{color: #ebebeb;}'}</style>
+        <style>{'body{ background-color: #25252a; font-family: Arial serif} img{border-radius: 50%; width: 100%; position: absolute; top: -200px;} h1{color: #939393;}'}</style>
       </Helmet>
 
       <Fade duration={2500}>
@@ -18,10 +18,9 @@ function App() {
           position: 'absolute', left:'45%', top: '50%',
           transform: 'translate(-50%, -50%)'
         }}>
-
+          <h1>Ya Boi's Lazy</h1>
           <img src={jatinimg} alt='Its Me JC' />
           <h1>Coming Soon</h1>
-
         </div>
       </Fade>
     </div>
